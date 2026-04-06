@@ -29,6 +29,8 @@ data/*.sqlite-shm
 data/*.sqlite-wal
 AGENTS.md
 CLAUDE.md
+*.xcuserstate
+xcuserdata/
 
 # debug
 npm-debug.log*
