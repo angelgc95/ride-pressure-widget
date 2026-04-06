@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09D1699C3F2B3FA184506331 /* PillBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4B673B6FFD4E9D91AC434 /* PillBadge.swift */; };
+		0E0C0B9A22C45DCC69624698 /* RidePressureShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C5170EAAF4D120A16EC822 /* RidePressureShared.swift */; };
+		0F7467A7EE32A6949E833EC2 /* OpenMeteoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B5FD9C80D43957CEE1156D /* OpenMeteoService.swift */; };
+		1442EE7EE8E5BF751326121B /* WidgetDashboardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33A5AEDCF85761E71A92146 /* WidgetDashboardStore.swift */; };
+		1D69162362D64361436A6A04 /* SnapshotArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77EDBD1376A6E7021ACDC57 /* SnapshotArchive.swift */; };
+		1F074034A1D732ABA1B17840 /* MarketModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30C3684C5BEC5AB2BEBF89 /* MarketModels.swift */; };
+		1F38087C51708C6F96D85624 /* RidePressureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589D80DED8FC9C88CA4269F /* RidePressureApp.swift */; };
+		2131441D5E753F23B81C0B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299CF8AE9780D66B3A4B0014 /* Assets.xcassets */; };
+		2BA0FBDCCCFF089FBCD5EA18 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC5B2539206132368E005C /* Theme.swift */; };
+		3E91882987AFA7D593B1D174 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF37ED64BC0519864B8607 /* HTTPClient.swift */; };
+		3F8FD6E751B7941C1205848A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC5B2539206132368E005C /* Theme.swift */; };
+		4268D09F605FECB5E8D01ECE /* MetricTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E133305A980A27F9832B0BF9 /* MetricTile.swift */; };
+		4542F059A37848D91B8472DA /* MarketModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30C3684C5BEC5AB2BEBF89 /* MarketModels.swift */; };
+		49C6EFF8394A022A849AA48A /* PressureChartCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B9E55672B78DEFB2B54BC6 /* PressureChartCard.swift */; };
+		4D6E1C32CC6825012583E579 /* MarketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979FFE7BC45AAE64DB90F42 /* MarketEngine.swift */; };
+		50AC12A7737595E3E0D12ED7 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF37ED64BC0519864B8607 /* HTTPClient.swift */; };
+		81C309853764C94150528A72 /* RidePressureWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BC811F05BD78A13DD65DD3 /* RidePressureWidgetBundle.swift */; };
+		88694EED09F18CE247068923 /* ProviderAdapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A59449449B479161826AE2 /* ProviderAdapters.swift */; };
+		9215AC451F82D5F576350A1B /* LaunchOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E57329F2FB81D8033C78EA2 /* LaunchOverlayView.swift */; };
+		9A92A9F70EE3DD367FFB9765 /* MarketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979FFE7BC45AAE64DB90F42 /* MarketEngine.swift */; };
+		9B940DD302EF8C5677028877 /* RidePressureRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C035451472BCDC7698177015 /* RidePressureRootView.swift */; };
+		A327DC3104EF5D4CD3EACC67 /* RidePressureShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C5170EAAF4D120A16EC822 /* RidePressureShared.swift */; };
+		A91C6B72D59C8A31EC2ADBDC /* CitySearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975C049FF780687BC2CC9F07 /* CitySearchView.swift */; };
+		AD0C6C44F9206FCA392FE042 /* SnapshotArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77EDBD1376A6E7021ACDC57 /* SnapshotArchive.swift */; };
+		BBB910FE8C1A2BA5F766E233 /* ProviderAdapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A59449449B479161826AE2 /* ProviderAdapters.swift */; };
+		D06E72A8CD3DB25551AA9FAE /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697636034AC9A05C87CE54AF /* LocationService.swift */; };
+		D527627D6D41E4CAAD208BF3 /* RidePressureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED34F9A8F902D144B648841B /* RidePressureStore.swift */; };
+		DD20C2C26EE8F219394591BB /* WidgetDashboardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33A5AEDCF85761E71A92146 /* WidgetDashboardStore.swift */; };
+		DE24720AF8D2810D83132632 /* RidePressureHomeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5054077A5A421D04EC0B3408 /* RidePressureHomeWidget.swift */; };
+		E028D00BBE77EAB343795C0A /* OpenMeteoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B5FD9C80D43957CEE1156D /* OpenMeteoService.swift */; };
+		E89B54BB53B26E3A2F38842F /* ProviderStatusCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F96E881A483AA3A13336D3 /* ProviderStatusCard.swift */; };
+		F642D2F5BB3C915009DE607E /* RidePressureWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E92630D26E387B1F025C14A7 /* RidePressureWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F769DF2BD38F5A9D6DE8BE15 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E0C7AA7D3A70330480F12E /* DashboardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56012E9E1198D28B07BA09A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76F54FEE77ED3B7DFFF97863 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0C1BAABC4D8E47BDC921CC1;
+			remoteInfo = RidePressureWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2E4FBF01E0FBCC5511142A1D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F642D2F5BB3C915009DE607E /* RidePressureWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		21B5FD9C80D43957CEE1156D /* OpenMeteoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenMeteoService.swift; sourceTree = "<group>"; };
+		299CF8AE9780D66B3A4B0014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3979FFE7BC45AAE64DB90F42 /* MarketEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketEngine.swift; sourceTree = "<group>"; };
+		3FAC5B2539206132368E005C /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		46F96E881A483AA3A13336D3 /* ProviderStatusCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderStatusCard.swift; sourceTree = "<group>"; };
+		5054077A5A421D04EC0B3408 /* RidePressureHomeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidePressureHomeWidget.swift; sourceTree = "<group>"; };
+		55E0C7AA7D3A70330480F12E /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		56C4B673B6FFD4E9D91AC434 /* PillBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillBadge.swift; sourceTree = "<group>"; };
+		67B9E55672B78DEFB2B54BC6 /* PressureChartCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressureChartCard.swift; sourceTree = "<group>"; };
+		697636034AC9A05C87CE54AF /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		70BC811F05BD78A13DD65DD3 /* RidePressureWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidePressureWidgetBundle.swift; sourceTree = "<group>"; };
+		8E57329F2FB81D8033C78EA2 /* LaunchOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchOverlayView.swift; sourceTree = "<group>"; };
+		96D4B0E26E0926C3EEE67F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		975C049FF780687BC2CC9F07 /* CitySearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySearchView.swift; sourceTree = "<group>"; };
+		9C5E6D4BEBC306D25779CD6A /* RidePressure.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RidePressure.entitlements; sourceTree = "<group>"; };
+		A240B397992BB2711F8FF7A7 /* RidePressure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RidePressure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B33A5AEDCF85761E71A92146 /* WidgetDashboardStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetDashboardStore.swift; sourceTree = "<group>"; };
+		B7CF37ED64BC0519864B8607 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		C035451472BCDC7698177015 /* RidePressureRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidePressureRootView.swift; sourceTree = "<group>"; };
+		D589D80DED8FC9C88CA4269F /* RidePressureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidePressureApp.swift; sourceTree = "<group>"; };
+		DC30C3684C5BEC5AB2BEBF89 /* MarketModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketModels.swift; sourceTree = "<group>"; };
+		E133305A980A27F9832B0BF9 /* MetricTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricTile.swift; sourceTree = "<group>"; };
+		E77EDBD1376A6E7021ACDC57 /* SnapshotArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotArchive.swift; sourceTree = "<group>"; };
+		E92630D26E387B1F025C14A7 /* RidePressureWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RidePressureWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC67E3D921D9BB6D40198858 /* RidePressureWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RidePressureWidget.entitlements; sourceTree = "<group>"; };
+		ED34F9A8F902D144B648841B /* RidePressureStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidePressureStore.swift; sourceTree = "<group>"; };
+		F0C5170EAAF4D120A16EC822 /* RidePressureShared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidePressureShared.swift; sourceTree = "<group>"; };
+		F2A59449449B479161826AE2 /* ProviderAdapters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderAdapters.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1DA25856EF67010334B68221 = {
+			isa = PBXGroup;
+			children = (
+				9E98AC53472D15C793D9CCD9 /* RidePressureApp */,
+				4B0E90138295210C47D42561 /* RidePressureWidget */,
+				23E226093905391071E96F53 /* Shared */,
+				994FB5E0C35BF92AA18DD39C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23E226093905391071E96F53 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F0C5170EAAF4D120A16EC822 /* RidePressureShared.swift */,
+				B33A5AEDCF85761E71A92146 /* WidgetDashboardStore.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		28788DB568B4C1D48D5E93F5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D589D80DED8FC9C88CA4269F /* RidePressureApp.swift */,
+				C035451472BCDC7698177015 /* RidePressureRootView.swift */,
+				ED34F9A8F902D144B648841B /* RidePressureStore.swift */,
+				3FAC5B2539206132368E005C /* Theme.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2D61D3CB08DCC81C232A201C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC30C3684C5BEC5AB2BEBF89 /* MarketModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		359BD029C583A6B18803462B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF37ED64BC0519864B8607 /* HTTPClient.swift */,
+				697636034AC9A05C87CE54AF /* LocationService.swift */,
+				3979FFE7BC45AAE64DB90F42 /* MarketEngine.swift */,
+				21B5FD9C80D43957CEE1156D /* OpenMeteoService.swift */,
+				F2A59449449B479161826AE2 /* ProviderAdapters.swift */,
+				E77EDBD1376A6E7021ACDC57 /* SnapshotArchive.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4B0E90138295210C47D42561 /* RidePressureWidget */ = {
+			isa = PBXGroup;
+			children = (
+				96D4B0E26E0926C3EEE67F5F /* Info.plist */,
+				5054077A5A421D04EC0B3408 /* RidePressureHomeWidget.swift */,
+				EC67E3D921D9BB6D40198858 /* RidePressureWidget.entitlements */,
+				70BC811F05BD78A13DD65DD3 /* RidePressureWidgetBundle.swift */,
+			);
+			path = RidePressureWidget;
+			sourceTree = "<group>";
+		};
+		7B4E9F29E36A48DA398837EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				299CF8AE9780D66B3A4B0014 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		93EEBA5B7D70B6355AEA5856 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				975C049FF780687BC2CC9F07 /* CitySearchView.swift */,
+				55E0C7AA7D3A70330480F12E /* DashboardView.swift */,
+				D5A63AEFF43D58C2AAEE0446 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		994FB5E0C35BF92AA18DD39C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A240B397992BB2711F8FF7A7 /* RidePressure.app */,
+				E92630D26E387B1F025C14A7 /* RidePressureWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E98AC53472D15C793D9CCD9 /* RidePressureApp */ = {
+			isa = PBXGroup;
+			children = (
+				9C5E6D4BEBC306D25779CD6A /* RidePressure.entitlements */,
+				28788DB568B4C1D48D5E93F5 /* App */,
+				2D61D3CB08DCC81C232A201C /* Models */,
+				7B4E9F29E36A48DA398837EA /* Resources */,
+				359BD029C583A6B18803462B /* Services */,
+				93EEBA5B7D70B6355AEA5856 /* Views */,
+			);
+			path = RidePressureApp;
+			sourceTree = "<group>";
+		};
+		D5A63AEFF43D58C2AAEE0446 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8E57329F2FB81D8033C78EA2 /* LaunchOverlayView.swift */,
+				E133305A980A27F9832B0BF9 /* MetricTile.swift */,
+				56C4B673B6FFD4E9D91AC434 /* PillBadge.swift */,
+				67B9E55672B78DEFB2B54BC6 /* PressureChartCard.swift */,
+				46F96E881A483AA3A13336D3 /* ProviderStatusCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A22C8B2A867332BDF5B4B7D5 /* RidePressure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41711E8AB68F6D1C7A368415 /* Build configuration list for PBXNativeTarget "RidePressure" */;
+			buildPhases = (
+				A58A6711CFAD82FFBC27B38A /* Sources */,
+				71DFFB44853EBBE17943C07A /* Resources */,
+				2E4FBF01E0FBCC5511142A1D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C04199635D5B8AD492E8D4AF /* PBXTargetDependency */,
+			);
+			name = RidePressure;
+			packageProductDependencies = (
+			);
+			productName = RidePressure;
+			productReference = A240B397992BB2711F8FF7A7 /* RidePressure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0C1BAABC4D8E47BDC921CC1 /* RidePressureWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FECC21D01294F3C2422DC9BF /* Build configuration list for PBXNativeTarget "RidePressureWidget" */;
+			buildPhases = (
+				9E1A411B7CA5ADEFE7670FFA /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RidePressureWidget;
+			packageProductDependencies = (
+			);
+			productName = RidePressureWidget;
+			productReference = E92630D26E387B1F025C14A7 /* RidePressureWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76F54FEE77ED3B7DFFF97863 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2640;
+			};
+			buildConfigurationList = BF819CB18E49F20DE0F30DBD /* Build configuration list for PBXProject "RidePressureIOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1DA25856EF67010334B68221;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 994FB5E0C35BF92AA18DD39C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A22C8B2A867332BDF5B4B7D5 /* RidePressure */,
+				D0C1BAABC4D8E47BDC921CC1 /* RidePressureWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71DFFB44853EBBE17943C07A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2131441D5E753F23B81C0B0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E1A411B7CA5ADEFE7670FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E91882987AFA7D593B1D174 /* HTTPClient.swift in Sources */,
+				9A92A9F70EE3DD367FFB9765 /* MarketEngine.swift in Sources */,
+				1F074034A1D732ABA1B17840 /* MarketModels.swift in Sources */,
+				E028D00BBE77EAB343795C0A /* OpenMeteoService.swift in Sources */,
+				BBB910FE8C1A2BA5F766E233 /* ProviderAdapters.swift in Sources */,
+				DE24720AF8D2810D83132632 /* RidePressureHomeWidget.swift in Sources */,
+				A327DC3104EF5D4CD3EACC67 /* RidePressureShared.swift in Sources */,
+				81C309853764C94150528A72 /* RidePressureWidgetBundle.swift in Sources */,
+				AD0C6C44F9206FCA392FE042 /* SnapshotArchive.swift in Sources */,
+				2BA0FBDCCCFF089FBCD5EA18 /* Theme.swift in Sources */,
+				DD20C2C26EE8F219394591BB /* WidgetDashboardStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A58A6711CFAD82FFBC27B38A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91C6B72D59C8A31EC2ADBDC /* CitySearchView.swift in Sources */,
+				F769DF2BD38F5A9D6DE8BE15 /* DashboardView.swift in Sources */,
+				50AC12A7737595E3E0D12ED7 /* HTTPClient.swift in Sources */,
+				9215AC451F82D5F576350A1B /* LaunchOverlayView.swift in Sources */,
+				D06E72A8CD3DB25551AA9FAE /* LocationService.swift in Sources */,
+				4D6E1C32CC6825012583E579 /* MarketEngine.swift in Sources */,
+				4542F059A37848D91B8472DA /* MarketModels.swift in Sources */,
+				4268D09F605FECB5E8D01ECE /* MetricTile.swift in Sources */,
+				0F7467A7EE32A6949E833EC2 /* OpenMeteoService.swift in Sources */,
+				09D1699C3F2B3FA184506331 /* PillBadge.swift in Sources */,
+				49C6EFF8394A022A849AA48A /* PressureChartCard.swift in Sources */,
+				88694EED09F18CE247068923 /* ProviderAdapters.swift in Sources */,
+				E89B54BB53B26E3A2F38842F /* ProviderStatusCard.swift in Sources */,
+				1F38087C51708C6F96D85624 /* RidePressureApp.swift in Sources */,
+				9B940DD302EF8C5677028877 /* RidePressureRootView.swift in Sources */,
+				0E0C0B9A22C45DCC69624698 /* RidePressureShared.swift in Sources */,
+				D527627D6D41E4CAAD208BF3 /* RidePressureStore.swift in Sources */,
+				1D69162362D64361436A6A04 /* SnapshotArchive.swift in Sources */,
+				3F8FD6E751B7941C1205848A /* Theme.swift in Sources */,
+				1442EE7EE8E5BF751326121B /* WidgetDashboardStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C04199635D5B8AD492E8D4AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0C1BAABC4D8E47BDC921CC1 /* RidePressureWidget */;
+			targetProxy = 56012E9E1198D28B07BA09A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		437C84748C04B58F847E2F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = RidePressureWidget/RidePressureWidget.entitlements;
+				INFOPLIST_FILE = RidePressureWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.angel.ridepressure.widget;
+				PRODUCT_NAME = RidePressureWidget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6AEF67AF10D0DC3B4BC58093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RidePressureApp/RidePressure.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ride Pressure";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Ride Pressure uses your location to choose your current city automatically.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.angel.ridepressure;
+				PRODUCT_NAME = RidePressure;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		89266CDDEF13987CC266F560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.1;
+			};
+			name = Debug;
+		};
+		8F3949D297F862D844A9077F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RidePressureApp/RidePressure.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ride Pressure";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Ride Pressure uses your location to choose your current city automatically.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.angel.ridepressure;
+				PRODUCT_NAME = RidePressure;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		92D9F73F16E59616809EC1C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.1;
+			};
+			name = Release;
+		};
+		F6EAA1F3F270A36C6F8D2E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = RidePressureWidget/RidePressureWidget.entitlements;
+				INFOPLIST_FILE = RidePressureWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.angel.ridepressure.widget;
+				PRODUCT_NAME = RidePressureWidget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41711E8AB68F6D1C7A368415 /* Build configuration list for PBXNativeTarget "RidePressure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F3949D297F862D844A9077F /* Debug */,
+				6AEF67AF10D0DC3B4BC58093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BF819CB18E49F20DE0F30DBD /* Build configuration list for PBXProject "RidePressureIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89266CDDEF13987CC266F560 /* Debug */,
+				92D9F73F16E59616809EC1C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FECC21D01294F3C2422DC9BF /* Build configuration list for PBXNativeTarget "RidePressureWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437C84748C04B58F847E2F31 /* Debug */,
+				F6EAA1F3F270A36C6F8D2E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76F54FEE77ED3B7DFFF97863 /* Project object */;
+}

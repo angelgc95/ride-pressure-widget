@@ -1,0 +1,45 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="140" y1="70" x2="1087" y2="571" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A0F1A"/>
+      <stop offset="1" stop-color="#18233D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="829" y1="135" x2="1080" y2="527" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <style>
+      .eyebrow { fill: #67E8F9; font: 600 24px 'Inter', 'Segoe UI', sans-serif; letter-spacing: 0.22em; }
+      .title { fill: #F8FAFC; font: 700 66px 'Inter', 'Segoe UI', sans-serif; }
+      .body { fill: #CBD5E1; font: 500 30px 'Inter', 'Segoe UI', sans-serif; }
+      .chip { fill: rgba(15, 23, 42, 0.6); stroke: rgba(148, 163, 184, 0.3); }
+      .chipText { fill: #E2E8F0; font: 600 22px 'Inter', 'Segoe UI', sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="630" rx="36" fill="url(#bg)"/>
+  <circle cx="1022" cy="173" r="164" fill="url(#accent)" fill-opacity="0.16"/>
+  <circle cx="1019" cy="478" r="208" fill="#0B1120" fill-opacity="0.82"/>
+  <rect x="850" y="118" width="244" height="366" rx="34" fill="#09111F" stroke="rgba(148, 163, 184, 0.24)"/>
+  <rect x="881" y="154" width="182" height="132" rx="28" fill="#0F172A"/>
+  <rect x="881" y="306" width="182" height="56" rx="20" fill="#0F172A"/>
+  <rect x="881" y="377" width="182" height="56" rx="20" fill="#0F172A"/>
+  <path d="M911 249C945 203 973 180 1012 180C1032 180 1047 187 1062 200" stroke="#22D3EE" stroke-width="14" stroke-linecap="round"/>
+  <path d="M911 222C945 264 973 286 1012 286C1032 286 1047 279 1062 266" stroke="#818CF8" stroke-width="14" stroke-linecap="round"/>
+  <path d="M907 334H1036" stroke="#334155" stroke-width="16" stroke-linecap="round"/>
+  <path d="M907 405H1002" stroke="#22D3EE" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="1044" cy="405" r="22" fill="#102034"/>
+  <path d="M1035 405H1053" stroke="#67E8F9" stroke-width="8" stroke-linecap="round"/>
+
+  <text x="90" y="136" class="eyebrow">MOBILITY SIGNAL</text>
+  <text x="90" y="230" class="title">Ride Pressure Widget</text>
+  <text x="90" y="286" class="body">A city-level read on ride-hailing and taxi pressure</text>
+  <text x="90" y="328" class="body">using live signals and transparent provider support.</text>
+
+  <rect x="90" y="402" width="174" height="58" rx="29" class="chip"/>
+  <rect x="282" y="402" width="176" height="58" rx="29" class="chip"/>
+  <rect x="476" y="402" width="198" height="58" rx="29" class="chip"/>
+  <text x="126" y="439" class="chipText">Weather</text>
+  <text x="318" y="439" class="chipText">Snapshots</text>
+  <text x="511" y="439" class="chipText">Widget-first UI</text>
+</svg>

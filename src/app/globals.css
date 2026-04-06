@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --background: #020617;
+  --foreground: #f8fafc;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-display);
+  --font-mono: var(--font-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-display), sans-serif;
+}
+
+::selection {
+  background: rgba(103, 232, 249, 0.3);
+  color: white;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.recharts-tooltip-wrapper {
+  outline: none;
+}
