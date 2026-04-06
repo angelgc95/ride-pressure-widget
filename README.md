@@ -4,6 +4,8 @@
 
 City-level mobility pressure signal for taxis and ride-hailing demand.
 
+Live preview: [skill-deploy-duvu5vbg0d-codex-agent-deploys.vercel.app](https://skill-deploy-duvu5vbg0d-codex-agent-deploys.vercel.app)
+
 ## Problem
 
 Route quote tools answer the price of one trip. They do not tell a rider, operator, or city observer whether the local ride market is broadly favorable, normal, or under pressure right now.
