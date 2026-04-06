@@ -4,7 +4,7 @@
 
 City-level mobility pressure signal for taxis and ride-hailing demand.
 
-Live preview: [skill-deploy-duvu5vbg0d-codex-agent-deploys.vercel.app](https://skill-deploy-duvu5vbg0d-codex-agent-deploys.vercel.app)
+Public demo link is intentionally omitted until a stable deployment is published.
 
 ## Problem
 
